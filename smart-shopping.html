@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Click with Care — Smart Shopping</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="navbar-brand">Click with <span>Care</span></a>
+    <button class="nav-toggle" id="nav-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="safety.html">Shopping Safety</a></li>
+      <li><a href="rights.html">Consumer Rights</a></li>
+      <li><a href="smart-shopping.html">Smart Shopping</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1>🛒 Smart Shopping</h1>
+    <p>Sample product listings, price comparison, and a consumer awareness quiz.</p>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <!-- Part A: Sample Product Listings -->
+      <section class="section">
+        <h2 class="section-title">Part A: Sample Product Listings</h2>
+
+        <div class="fictional-note" role="note">
+          ⚠ <strong>Educational Note:</strong> The products, prices, and seller details shown below are entirely fictional and created for educational purposes only. They are not real products and are not available for purchase.
+        </div>
+
+        <div class="card-grid">
+
+          <!-- Product 1: Headphones -->
+          <div class="product-card">
+            <div class="product-img" aria-label="Illustration of wireless headphones">🎧</div>
+            <div class="product-body">
+              <h3>ClearSound Wireless Headphones</h3>
+              <div class="product-price">₱1,299.00</div>
+              <p>Over-ear wireless headphones with Bluetooth 5.0, up to 20 hours battery life, and a built-in microphone. Compatible with Android and iOS devices. Color: Black.</p>
+              <p><strong>Shipping Fee:</strong> ₱80.00</p>
+              <p><strong>Estimated Delivery:</strong> 3–5 business days</p>
+              <p><strong>Return Policy:</strong> Returns accepted within 7 days if item is defective or not as described. Buyer shoulders return shipping cost.</p>
+              <span class="product-tag">Fictional Example</span>
+            </div>
+          </div>
+
+          <!-- Product 2: Backpack -->
+          <div class="product-card">
+            <div class="product-img" aria-label="Illustration of a school backpack">🎒</div>
+            <div class="product-body">
+              <h3>TrailReady School Backpack</h3>
+              <div class="product-price">₱850.00</div>
+              <p>Water-resistant polyester backpack with a padded laptop compartment (fits up to 15"), multiple pockets, and adjustable shoulder straps. Capacity: 30L. Color: Navy Blue.</p>
+              <p><strong>Shipping Fee:</strong> ₱100.00</p>
+              <p><strong>Estimated Delivery:</strong> 4–7 business days</p>
+              <p><strong>Return Policy:</strong> No returns accepted unless item arrives damaged. Buyer must submit photo evidence within 48 hours of delivery.</p>
+              <span class="product-tag">Fictional Example</span>
+            </div>
+          </div>
+
+          <!-- Product 3: Water Bottle -->
+          <div class="product-card">
+            <div class="product-img" aria-label="Illustration of a stainless steel water bottle">🍶</div>
+            <div class="product-body">
+              <h3>HydroKeep Insulated Bottle</h3>
+              <div class="product-price">₱420.00</div>
+              <p>500ml stainless steel insulated water bottle. Keeps drinks cold for up to 24 hours and hot for up to 12 hours. Leak-proof lid. BPA-free. Color: Matte White.</p>
+              <p><strong>Shipping Fee:</strong> ₱60.00</p>
+              <p><strong>Estimated Delivery:</strong> 2–4 business days</p>
+              <p><strong>Return Policy:</strong> Returns accepted within 15 days for any reason. Free return shipping provided by seller.</p>
+              <span class="product-tag">Fictional Example</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Part B: Compare Before You Buy -->
+      <section class="section">
+        <h2 class="section-title">Part B: Compare Before You Buy</h2>
+        <p style="color:var(--gray-text); margin-bottom:1rem;">
+          The listed price of a product is not always the final cost. Before choosing a product, compare the base price, shipping fee, total cost, and return policy. The example below uses the fictional products from Part A.
+        </p>
+
+        <div style="overflow-x:auto;">
+          <table class="compare-table" aria-label="Product comparison table">
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Listed Price</th>
+                <th>Shipping Fee</th>
+                <th>Total Cost</th>
+                <th>Return Policy</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ClearSound Headphones</td>
+                <td>₱1,299.00</td>
+                <td>₱80.00</td>
+                <td>₱1,379.00</td>
+                <td>7 days (defective only)</td>
+              </tr>
+              <tr>
+                <td>TrailReady Backpack</td>
+                <td>₱850.00</td>
+                <td>₱100.00</td>
+                <td>₱950.00</td>
+                <td>Damaged items only, 48 hrs</td>
+              </tr>
+              <tr class="highlight">
+                <td>HydroKeep Bottle ✔</td>
+                <td>₱420.00</td>
+                <td>₱60.00</td>
+                <td>₱480.00</td>
+                <td>15 days, free return shipping</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="info-box" style="margin-top:1.25rem;">
+          <h4>💡 What This Example Shows</h4>
+          <p>
+            The HydroKeep Bottle has the lowest total cost and the most consumer-friendly return policy — free returns within 15 days for any reason. Even if another product had a slightly lower listed price, a high shipping fee or a restrictive return policy could make it a worse deal overall.
+          </p>
+          <p style="margin-top:0.5rem;">
+            Always calculate the <strong>total cost</strong> and read the <strong>return policy</strong> before confirming your purchase.
+          </p>
+        </div>
+      </section>
+
+      <!-- Part C: Quiz -->
+      <section class="section">
+        <h2 class="section-title">Part C: Consumer Awareness Quiz</h2>
+        <p style="color:var(--gray-text); margin-bottom:1.25rem;">
+          Test your knowledge of online consumer safety. Answer all 5 questions, then click <strong>Submit Answers</strong> to see your score and explanations. No personal information is collected.
+        </p>
+
+        <div class="quiz-box">
+          <!-- Questions are injected here by script.js -->
+          <form id="quiz-form" aria-label="Consumer awareness quiz" novalidate></form>
+
+          <div style="margin-top:1rem; display:flex; gap:0.75rem; flex-wrap:wrap;">
+            <button class="btn btn-primary" id="quiz-submit" type="button">Submit Answers</button>
+            <button class="btn btn-outline"  id="quiz-retry"  type="button" style="display:none;">Retry Quiz</button>
+          </div>
+
+          <!-- Score and feedback appear here -->
+          <div id="quiz-result" role="alert" aria-live="polite"></div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p><strong>Click with Care</strong> — Ethical E-Commerce and Consumer Protection</p>
+    <p style="margin-top:0.4rem;">
+      This website is a student project created for educational purposes only. It does not provide legal advice
+      and does not sell, collect, or store personal information.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
